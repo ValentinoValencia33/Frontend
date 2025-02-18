@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección de Emociones</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Detección de Emociones en Tiempo Real</h2>
+    
+    <div class="container">
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="info">
+        <p>Emoción detectada: <span id="emotion">Esperando...</span></p>
+        <p>Confianza: <span id="confidence">0%</span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
